@@ -5,5 +5,5 @@ import (
 )
 
 var (
-	foundationAddress = common.HexToAddress("0x5f60cc68B7393e4BBff8F9d71fC9e07cFB4f2C0E")
+	foundationAddress = common.HexToAddress("0x15178ba203b3B2f829515aA6399E672e5eAd5698")
 )

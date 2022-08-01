@@ -2,10 +2,11 @@ package systemcontract
 
 import (
 	"encoding/json"
-	"github.com/DxChainNetwork/dxc/common"
-	"github.com/DxChainNetwork/dxc/common/math"
 	"math/big"
 	"strings"
+
+	"github.com/DxChainNetwork/dxc/common"
+	"github.com/DxChainNetwork/dxc/common/math"
 )
 
 // using for Validators contract's initialize
@@ -16,7 +17,7 @@ var (
 	InitDetails = "initialize validator" // max bytes length: 10000
 )
 
-var MigrateOwner = common.HexToAddress("0x3fe93764c06bb5d712b73ad2a385b168d69d3984")
+var MigrateOwner = common.HexToAddress("0x0eb2e1567baaa871a98f8f645cf8580a1bc97abe")
 
 type MigrateAddrBalance struct {
 	Address common.Address        `json:"address"`
