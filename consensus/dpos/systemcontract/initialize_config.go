@@ -17,7 +17,7 @@ var (
 	InitDetails = "initialize validator" // max bytes length: 10000
 )
 
-var MigrateOwner = common.HexToAddress("0x0eb2e1567baaa871a98f8f645cf8580a1bc97abe")
+var MigrateOwner = common.HexToAddress("0xDB8be06d46db25F3ca2b9beBB9D16EE8c28A69c3")
 
 type MigrateAddrBalance struct {
 	Address common.Address        `json:"address"`
