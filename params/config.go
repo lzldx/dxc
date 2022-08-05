@@ -60,8 +60,8 @@ var (
 		SophonBlock:         big.NewInt(0),
 
 		Dpos: &DposConfig{
-			Period: 3,
-			Epoch:  28800,
+			Period: 5,
+			Epoch:  720,
 
 			EnableDevVerification: true,
 		},
